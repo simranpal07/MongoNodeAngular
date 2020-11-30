@@ -1,0 +1,16 @@
+{
+  "name": "projecttesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amit pal singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.18",
+    "nodemon": "^2.0.6"
+  }
+}
