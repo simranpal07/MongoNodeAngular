@@ -11,9 +11,10 @@ const user=require("./models/users");
 
 app.get("/",(req,res)=>{
     user.find({}).then( (data)=>{
+        res.send(data);
         console.log(data);
     })
-    res.send("welcome");
+   // res.send("welcome");
 })
 app.listen(port,(req,res)=>{
     console.log(`Listening at the port ${port}`);
